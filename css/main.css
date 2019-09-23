@@ -25,14 +25,14 @@ img {
   max-width: 100%; }
 
 header {
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/leaves.jpg);
   background-size: cover;
   background-position: center;
   height: 100%; }
   header .title {
     width: 100%;
     margin: 0 auto;
-    padding-top: 5rem;
+    padding-top: 1rem;
     display: inline-block;
     text-align: center; }
     header .title h1 {
@@ -40,14 +40,22 @@ header {
       font-size: 2rem;
       text-transform: uppercase;
       font-weight: 200; }
-    header .title img {
-      width: 150px;
-      margin-top: 0.25rem; }
+    header .title .border-top {
+      width: 90%;
+      margin: 0 auto;
+      border-bottom: 1px solid #F7F7F5; }
+    header .title .border-bottom {
+      width: 80%;
+      height: 5px;
+      margin: 0 auto;
+      margin-top: 2px;
+      border-top: 2px solid #F7F7F5;
+      border-bottom: 1px solid #F7F7F5; }
   header .subtitle {
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 18rem;
     text-align: justify;
-    margin-left: 2rem; }
+    margin-left: 1rem; }
     header .subtitle h3 {
       color: #F7F7F5;
       font-weight: 400;

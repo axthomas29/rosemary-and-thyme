@@ -1,5 +1,5 @@
 header {
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/leaves.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -7,7 +7,7 @@ header {
     .title {
         width: 100%;
         margin: 0 auto;
-        padding-top: 5rem;
+        padding-top: 1rem;
         display: inline-block;
         text-align: center;
 
@@ -18,17 +18,27 @@ header {
             font-weight: 200;
         }
 
-        img {
-            width: 150px;
-            margin-top: 0.25rem;
+        .border-top {
+            width: 90%;
+            margin: 0 auto;
+            border-bottom: 1px solid $white;
+        }
+
+        .border-bottom {
+            width: 80%;
+            height: 5px;
+            margin: 0 auto;
+            margin-top: 2px;
+            border-top: 2px solid $white;
+            border-bottom: 1px solid $white;
         }
     }
 
     .subtitle {
         width: 100%;
-        margin-top: 3rem;
+        margin-top: 18rem;
         text-align: justify;
-        margin-left: 2rem;
+        margin-left: 1rem;
 
         h3 {
             color: $white;
