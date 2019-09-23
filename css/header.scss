@@ -1,4 +1,4 @@
-header {
+.intro-content {
     background-image: url(../img/leaves.jpg);
     background-size: cover;
     background-position: center;
@@ -8,6 +8,7 @@ header {
         width: 100%;
         margin: 0 auto;
         padding-top: 1rem;
+        padding-bottom: 1rem;
         display: inline-block;
         text-align: center;
 
@@ -36,7 +37,7 @@ header {
 
     .subtitle {
         width: 100%;
-        margin-top: 18rem;
+        margin-top: 17rem;
         text-align: justify;
         margin-left: 1rem;
 

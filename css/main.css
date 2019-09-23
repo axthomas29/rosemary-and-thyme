@@ -18,49 +18,73 @@ body {
 body {
   color: #121208;
   font-family: "Montserrat";
-  background-color: #F7F7F5;
+  background-color: #686850;
   font-size: 16px; }
 
 img {
   max-width: 100%; }
 
-header {
+/* inherit height from parent */
+.main-carousel {
+  width: 100%;
+  height: 100%; }
+
+.carousel-cell {
+  width: 100%;
+  height: 100%; }
+
+/* move page dots into carousel */
+.flickity-page-dots {
+  bottom: 0px; }
+
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid #F7F7F5; }
+
+.flickity-page-dots .dot.is-selected {
+  background: #F7F7F5; }
+
+.intro-content {
   background-image: url(../img/leaves.jpg);
   background-size: cover;
   background-position: center;
   height: 100%; }
-  header .title {
+  .intro-content .title {
     width: 100%;
     margin: 0 auto;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     display: inline-block;
     text-align: center; }
-    header .title h1 {
+    .intro-content .title h1 {
       color: #F7F7F5;
       font-size: 2rem;
       text-transform: uppercase;
       font-weight: 200; }
-    header .title .border-top {
+    .intro-content .title .border-top {
       width: 90%;
       margin: 0 auto;
       border-bottom: 1px solid #F7F7F5; }
-    header .title .border-bottom {
+    .intro-content .title .border-bottom {
       width: 80%;
       height: 5px;
       margin: 0 auto;
       margin-top: 2px;
       border-top: 2px solid #F7F7F5;
       border-bottom: 1px solid #F7F7F5; }
-  header .subtitle {
+  .intro-content .subtitle {
     width: 100%;
-    margin-top: 18rem;
+    margin-top: 17rem;
     text-align: justify;
     margin-left: 1rem; }
-    header .subtitle h3 {
+    .intro-content .subtitle h3 {
       color: #F7F7F5;
       font-weight: 400;
       text-transform: lowercase; }
-      header .subtitle h3 span {
+      .intro-content .subtitle h3 span {
         font-family: "Playfair Display";
         font-size: 3rem;
         font-weight: 700; }
