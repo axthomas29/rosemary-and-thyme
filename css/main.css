@@ -75,3 +75,46 @@ img {
         font-family: "Playfair Display";
         font-size: 3rem;
         font-weight: 700; }
+
+.about {
+  overflow: hidden; }
+
+.intro {
+  width: 100%;
+  margin: 1rem 0 1rem 1rem; }
+  .intro h2 {
+    font-size: 4rem;
+    font-family: "Playfair Display";
+    color: #F7F7F5;
+    text-align: justify;
+    line-height: 4rem;
+    font-weight: 600; }
+    .intro h2 span {
+      font-family: "Montserrat";
+      font-weight: 100;
+      border-bottom: 1px solid #F7F7F5; }
+  .intro p {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-weight: 500; }
+
+.grid-images {
+  display: inline-block;
+  position: relative; }
+  .grid-images .img-1 {
+    width: 90%;
+    position: relative;
+    top: 10%;
+    left: 15%;
+    padding: 0.5rem;
+    border-top: 2px solid #B58C5E;
+    border-left: 2px solid #B58C5E; }
+  .grid-images .img-2 {
+    width: 90%;
+    position: relative;
+    top: -5px;
+    left: -5%;
+    padding: 0.5rem;
+    border-top: 2px solid #B58C5E;
+    border-right: 2px solid #B58C5E; }

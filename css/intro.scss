@@ -1,0 +1,55 @@
+.about {
+    overflow: hidden;
+}
+
+.intro {
+    width: 100%;
+    margin: 1rem 0 1rem 1rem;
+
+    h2 {
+        font-size: 4rem;
+        font-family: $serif;
+        color: $white;
+        text-align: justify;
+        line-height: 4rem;
+        font-weight: 600;
+
+        span {
+            font-family: $sansSerif;
+            font-weight: 100;
+            border-bottom: 1px solid $white;
+        }
+    }
+
+    p {
+        font-size: 1.25rem;
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        font-weight: 500;
+    }
+}
+
+.grid-images {
+    display: inline-block;
+    position: relative;
+
+    .img-1 {
+        width: 90%;
+        position: relative;
+        top: 10%;
+        left: 15%;
+        padding: 0.5rem;
+        border-top: 2px solid $tan;
+        border-left: 2px solid $tan;
+    }
+
+    .img-2 {
+        width: 90%;
+        position: relative;
+        top: -5px;
+        left: -5%;
+        padding: 0.5rem;
+        border-top: 2px solid $tan;
+        border-right: 2px solid $tan;
+    }
+}
