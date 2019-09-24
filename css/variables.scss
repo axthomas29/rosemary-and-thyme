@@ -38,6 +38,8 @@ img {
     max-width: 100%;
 }
 
+/* Flickity */
+
 /* inherit height from parent */
 .main-carousel {
     width: 100%;
@@ -47,21 +49,4 @@ img {
 .carousel-cell {
     width: 100%;
     height: 100%;
-}
-
-/* move page dots into carousel */
-.flickity-page-dots {
-    bottom: 0px;
-}
-
-.flickity-page-dots .dot {
-    width: 12px;
-    height: 12px;
-    opacity: 1;
-    background: transparent;
-    border: 2px solid $white;
-}
-
-.flickity-page-dots .dot.is-selected {
-    background: $white;
 }
