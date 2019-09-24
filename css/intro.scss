@@ -34,7 +34,7 @@
     position: relative;
 
     .img-1 {
-        width: 90%;
+        width: 95%;
         position: relative;
         top: 10%;
         left: 15%;
@@ -44,12 +44,10 @@
     }
 
     .img-2 {
-        width: 90%;
         position: relative;
         top: -5px;
-        left: -5%;
+        left: -10%;
         padding: 0.5rem;
-        border-top: 2px solid $tan;
-        border-right: 2px solid $tan;
+        border: 2px solid $tan;
     }
 }
