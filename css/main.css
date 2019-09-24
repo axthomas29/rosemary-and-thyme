@@ -116,3 +116,49 @@ img {
     left: -10%;
     padding: 0.5rem;
     border: 2px solid #B58C5E; }
+
+.mission {
+  display: inline-block;
+  text-align: center; }
+  .mission .mission-1-container,
+  .mission .mission-2-container {
+    margin: 1rem;
+    border-top: 2px solid #B58C5E;
+    border-bottom: 2px solid #B58C5E;
+    padding: 1rem; }
+  .mission .mission-1-container {
+    border-bottom: 3px solid #B58C5E;
+    margin-bottom: 0.5rem; }
+  .mission .mission-2-container {
+    border-top: 3px solid #B58C5E;
+    margin-top: 0.5rem; }
+  .mission .mission-1-text,
+  .mission .mission-2-text {
+    background-color: #B58C5E;
+    padding: 2rem; }
+  .mission h4 {
+    font-family: "Playfair Display";
+    font-size: 2rem;
+    font-weight: 700;
+    color: #F7F7F5;
+    padding-bottom: 0.5rem; }
+  .mission .line-2 {
+    border-top: 1.5px solid #686850;
+    padding-top: 0.5rem; }
+  .mission .line-3 {
+    background-color: #B58C5E;
+    height: 5px; }
+  .mission p {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.05rem; }
+  .mission a {
+    text-decoration: none;
+    color: #F7F7F5;
+    padding: 0.5rem;
+    border-top: 0.5px solid #686850;
+    border-bottom: 0.5px solid #686850;
+    font-weight: 500; }
+    .mission a span {
+      padding-right: 0.5rem;
+      font-weight: 800; }
