@@ -14,6 +14,10 @@
         line-height: 4rem;
         font-weight: 600;
 
+        @include sm {
+            font-size: 3.5rem;
+        }
+
         span {
             font-family: $sansSerif;
             font-weight: 100;
@@ -26,6 +30,19 @@
         margin-top: 0.5rem;
         padding: 0.5rem;
         font-weight: 500;
+
+        @include sm {
+            font-size: 1.1rem;
+            margin-right: 1.5rem;
+        }
+
+        @include lg {
+            font-size: 1.3rem;
+        }
+
+        @include xl {
+            font-size: 1.75rem;
+        }
     }
 }
 
@@ -41,6 +58,10 @@
         padding: 0.5rem;
         border-top: 2px solid $tan;
         border-left: 2px solid $tan;
+
+        @include sm {
+            width: 90%;
+        }
     }
 
     .img-2 {
@@ -49,5 +70,9 @@
         left: -10%;
         padding: 0.5rem;
         border: 2px solid $tan;
+
+        @include sm {
+            width: 90%;
+        }
     }
 }

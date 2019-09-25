@@ -120,6 +120,9 @@ section {
     text-align: justify;
     line-height: 4rem;
     font-weight: 600; }
+    @media (max-height: 650px) {
+      .intro h2 {
+        font-size: 3.5rem; } }
     .intro h2 span {
       font-family: "Montserrat";
       font-weight: 100;
@@ -129,6 +132,16 @@ section {
     margin-top: 0.5rem;
     padding: 0.5rem;
     font-weight: 500; }
+    @media (max-height: 650px) {
+      .intro p {
+        font-size: 1.1rem;
+        margin-right: 1.5rem; } }
+    @media (min-height: 1000px) {
+      .intro p {
+        font-size: 1.3rem; } }
+    @media (min-height: 1200px) {
+      .intro p {
+        font-size: 1.75rem; } }
 
 .grid-images {
   display: inline-block;
@@ -141,12 +154,18 @@ section {
     padding: 0.5rem;
     border-top: 2px solid #B58C5E;
     border-left: 2px solid #B58C5E; }
+    @media (max-height: 650px) {
+      .grid-images .img-1 {
+        width: 90%; } }
   .grid-images .img-2 {
     position: relative;
     top: -5px;
     left: -10%;
     padding: 0.5rem;
     border: 2px solid #B58C5E; }
+    @media (max-height: 650px) {
+      .grid-images .img-2 {
+        width: 90%; } }
 
 .mission {
   display: inline-block;
