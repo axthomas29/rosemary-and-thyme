@@ -15,7 +15,7 @@
   <body>
     <div
       class="main-carousel"
-      data-flickity='{ "setGallerySize": false, "wrapAround": true, "adaptiveHeight": true }'
+      data-flickity='{ "setGallerySize": false, "wrapAround": true, "adaptiveHeight": false }'
     >
       <div class="carousel-cell">
         <div class="intro-content">
@@ -135,31 +135,40 @@
       <div class="carousel-cell">
         <section class="contact">
           <div class="contact-text">
-            <h3>Get in Touch</h3>
+            <h3>Get <span>in Touch</span></h3>
             <p>
               Interested in being a brand ambassador? Wholesale? Suggestions to
               improve our product? Please fill out the form and we'll get back
               to you soon!
             </p>
-            <div class="line-6"></div>
+            <div class="line-4"></div>
             <p class="hours">Business Hours:<br />Weekdays 9AM-5PM EST</p>
             <p class="phone">Phone:<br />(555) 867-5309</p>
           </div>
-          <div class="contact-form">
-            <input type="text" name="field1" placeholder="Full Name" />
-            <input type="email" name="field2" placeholder="Email" />
-            <input type="url" name="field3" placeholder="Website" />
+          <form>
+            <input
+              name="name"
+              type="text"
+              class="feedback-input"
+              placeholder="Name"
+            />
+            <input
+              name="email"
+              type="text"
+              class="feedback-input"
+              placeholder="Email"
+            />
             <textarea
+              name="text"
+              class="feedback-input"
               placeholder="Message"
-              onkeyup="adjust_textarea(this)"
             ></textarea>
-            <input type="button" value="Send Message" />
-          </div>
+            <input type="submit" value="SUBMIT" />
+          </form>
         </section>
       </div>
     </div>
     <!-- javascript -->
-    <script src="./js/main.js"></script>
-    <script src="./js/flickity.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
 </html>

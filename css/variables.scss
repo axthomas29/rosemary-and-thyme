@@ -3,7 +3,7 @@ $white: #F7F7F5;
 $black: #121208;
 $brown: #763F2A;
 $tan: #B58C5E;
-$green: #686850;
+$green: #6D6D54;
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i|Playfair+Display:400,400i,700,700i,900,900i&display=swap');
@@ -38,15 +38,7 @@ img {
     max-width: 100%;
 }
 
-/* Flickity */
-
-/* inherit height from parent */
-.main-carousel {
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-cell {
+section {
     width: 100%;
     height: 100%;
 }

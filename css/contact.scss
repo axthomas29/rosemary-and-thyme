@@ -1,0 +1,104 @@
+.contact {
+
+    .contact-text {
+        margin: 1rem;
+
+        h3 {
+            font-family: $serif;
+            font-size: 3rem;
+            color: $white;
+            border-bottom: 1px solid $white;
+
+            span {
+                font-family: $sansSerif;
+                font-weight: 200;
+            }
+        }
+
+        p {
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid $tan;
+        }
+
+        .line-4 {
+            padding-top: 0.5rem;
+            border-bottom: 2px solid $tan;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .hours,
+        .phone {
+            border: none;
+            color: $white;
+            font-weight: 300;
+        }
+
+        .hours {
+            margin-bottom: -1rem;
+        }
+    }
+
+    form {
+        max-width: 90%;
+        margin: 1rem auto;
+
+        .feedback-input {
+            font-family: $sansSerif;
+            color: $black;
+            border: 2px solid $tan;
+            padding: 0.25rem;
+            line-height: 1.5rem;
+            font-size: 1.25rem;
+            background-color: $white;
+            transition: all 0.3s;
+            margin-bottom: 1rem;
+            width: 100%;
+            box-sizing: border-box;
+
+            &::placeholder {
+                color: $black;
+            }
+
+            &:-ms-input-placeholder {
+                color: $black;
+            }
+
+            &::-ms-input-placeholder {
+                color: $black;
+            }
+        }
+
+        textarea {
+            height: 6.25rem;
+            line-height: 150%;
+            resize: vertical;
+        }
+
+        [type="submit"] {
+            font-family: $sansSerif;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            width: 100%;
+            background: $tan;
+            border-radius: 5px;
+            border: 1px solid $white;
+            cursor: pointer;
+            color: $white;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            transition: all 0.3s;
+            margin-top: -4px;
+            font-weight: 700;
+        }
+
+        [type="submit"]:hover {
+            background: $green;
+        }
+
+    }
+}
