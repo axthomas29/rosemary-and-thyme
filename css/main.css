@@ -146,6 +146,8 @@ img {
     border-top: 1.5px solid #686850;
     padding-top: 0.5rem; }
   .mission .line-3 {
+    width: 95%;
+    margin: 0 auto;
     background-color: #B58C5E;
     height: 5px; }
   .mission p {
@@ -171,7 +173,7 @@ img {
     border: 1px solid #B58C5E;
     padding: 0.2rem;
     padding-bottom: 0.05rem;
-    width: 90%;
+    width: 85%;
     margin: 0 auto; }
     .product-container .img-container img {
       border: 2px solid #B58C5E;
@@ -193,7 +195,6 @@ img {
       letter-spacing: 0.1rem; }
     .product-container .product-text p {
       margin-top: 0.25rem;
-      font-size: 0.9rem;
       font-weight: 600; }
   .product-container a {
     width: 50%;
@@ -204,7 +205,7 @@ img {
     text-transform: uppercase;
     color: #F7F7F5;
     border: 1px solid #F7F7F5;
-    margin-top: 0.5rem;
+    margin-top: 0.85rem;
     padding: 0.25rem;
     background: #B58C5E; }
     .product-container a span {
