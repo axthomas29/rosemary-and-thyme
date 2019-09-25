@@ -36,6 +36,8 @@
 
         p {
             margin-top: 0.25rem;
+            font-size: 0.9rem;
+            font-weight: 600;
         }
     }
 
@@ -54,6 +56,10 @@
 
         span {
             padding-right: 0.5rem;
+        }
+
+        &:hover {
+            background-color: $green;
         }
     }
 }
