@@ -1,0 +1,23 @@
+@mixin sm {
+    @media (max-height:#{$screen-height-sm}) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (min-height:#{$screen-height-md}) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (min-height:#{$screen-height-lg}) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (min-height:#{$screen-height-xl}) {
+        @content;
+    }
+}

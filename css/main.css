@@ -1,3 +1,4 @@
+/* Media Queries */
 /* Colors */
 /* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i|Playfair+Display:400,400i,700,700i,900,900i&display=swap");
@@ -45,10 +46,16 @@ section {
       font-size: 2rem;
       text-transform: uppercase;
       font-weight: 200; }
+      @media (min-height: 1000px) {
+        .intro-content .title h1 {
+          font-size: 2.5rem; } }
     .intro-content .title .border-top {
       width: 90%;
       margin: 0 auto;
       border-bottom: 1px solid #F7F7F5; }
+      @media (min-height: 1000px) {
+        .intro-content .title .border-top {
+          border-bottom: 2px solid #F7F7F5; } }
     .intro-content .title .border-bottom {
       width: 80%;
       height: 5px;
@@ -56,19 +63,49 @@ section {
       margin-top: 2px;
       border-top: 2px solid #F7F7F5;
       border-bottom: 1px solid #F7F7F5; }
+      @media (min-height: 1000px) {
+        .intro-content .title .border-bottom {
+          border-bottom: 2px solid #F7F7F5;
+          border-top: 3px solid #F7F7F5;
+          padding: 1px; } }
   .intro-content .subtitle {
-    width: 100%;
+    width: 80%;
     margin-top: 15rem;
     text-align: justify;
     margin-left: 1rem; }
+    @media (max-height: 650px) {
+      .intro-content .subtitle {
+        margin-top: 10rem; } }
+    @media (min-height: 750px) {
+      .intro-content .subtitle {
+        margin-top: 18rem; } }
+    @media (min-height: 1000px) {
+      .intro-content .subtitle {
+        margin-top: 25rem; } }
+    @media (min-height: 1200px) {
+      .intro-content .subtitle {
+        margin-top: 30rem; } }
     .intro-content .subtitle h3 {
       color: #F7F7F5;
       font-weight: 400;
       text-transform: lowercase; }
+      @media (max-height: 650px) {
+        .intro-content .subtitle h3 {
+          font-size: 1rem; } }
+      @media (min-height: 1000px) {
+        .intro-content .subtitle h3 {
+          font-size: 2rem;
+          margin-left: 0.5rem; } }
       .intro-content .subtitle h3 span {
         font-family: "Playfair Display";
         font-size: 3rem;
         font-weight: 700; }
+        @media (max-height: 650px) {
+          .intro-content .subtitle h3 span {
+            font-size: 2.5rem; } }
+        @media (min-height: 1000px) {
+          .intro-content .subtitle h3 span {
+            font-size: 3.5rem; } }
 
 .about {
   overflow: hidden; }

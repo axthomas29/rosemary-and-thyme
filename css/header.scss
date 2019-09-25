@@ -17,12 +17,20 @@
             font-size: 2rem;
             text-transform: uppercase;
             font-weight: 200;
+
+            @include lg {
+                font-size: 2.5rem;
+            }
         }
 
         .border-top {
             width: 90%;
             margin: 0 auto;
             border-bottom: 1px solid $white;
+
+            @include lg {
+                border-bottom: 2px solid $white;
+            }
         }
 
         .border-bottom {
@@ -32,24 +40,63 @@
             margin-top: 2px;
             border-top: 2px solid $white;
             border-bottom: 1px solid $white;
+
+            @include lg {
+                border-bottom: 2px solid $white;
+                border-top: 3px solid $white;
+                padding: 1px;
+            }
         }
     }
 
     .subtitle {
-        width: 100%;
+        width: 80%;
         margin-top: 15rem;
         text-align: justify;
         margin-left: 1rem;
+
+        @include sm {
+            margin-top: 10rem;
+        }
+
+        @include md {
+            margin-top: 18rem;
+        }
+
+        @include lg {
+            margin-top: 25rem;
+        }
+
+        @include xl {
+            margin-top: 30rem;
+        }
 
         h3 {
             color: $white;
             font-weight: 400;
             text-transform: lowercase;
 
+            @include sm {
+                font-size: 1rem;
+            }
+
+            @include lg {
+                font-size: 2rem;
+                margin-left: 0.5rem;
+            }
+
             span {
                 font-family: $serif;
                 font-size: 3rem;
                 font-weight: 700;
+
+                @include sm {
+                    font-size: 2.5rem;
+                }
+
+                @include lg {
+                    font-size: 3.5rem;
+                }
             }
         }
     }
