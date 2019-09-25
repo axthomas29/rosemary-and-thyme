@@ -1,0 +1,59 @@
+.product-container {
+    margin: 1rem;
+
+    .img-container {
+        border: 1px solid $tan;
+        padding: 0.2rem;
+        padding-bottom: 0.05rem;
+        width: 90%;
+        margin: 0 auto;
+
+        img {
+            border: 2px solid $tan;
+            padding: 0.1rem;
+        }
+    }
+
+    .product-title {
+        font-family: $serif;
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: $white;
+        border-bottom: 1px solid $white;
+        padding: 0.1rem;
+    }
+
+    .product-text {
+        display: inline-block;
+
+        h5 {
+            text-transform: uppercase;
+            margin-top: 0.25rem;
+            color: $tan;
+            letter-spacing: 0.1rem;
+        }
+
+        p {
+            margin-top: 0.25rem;
+        }
+    }
+
+    a {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $white;
+        border: 1px solid $white;
+        margin-top: 0.5rem;
+        padding: 0.25rem;
+        background: $tan;
+
+        span {
+            padding-right: 0.5rem;
+        }
+    }
+}

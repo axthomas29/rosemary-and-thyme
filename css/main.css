@@ -159,6 +159,51 @@ img {
     border-top: 0.5px solid #686850;
     border-bottom: 0.5px solid #686850;
     font-weight: 500; }
+    .mission a:hover {
+      color: #686850; }
     .mission a span {
       padding-right: 0.5rem;
       font-weight: 800; }
+
+.product-container {
+  margin: 1rem; }
+  .product-container .img-container {
+    border: 1px solid #B58C5E;
+    padding: 0.2rem;
+    padding-bottom: 0.05rem;
+    width: 90%;
+    margin: 0 auto; }
+    .product-container .img-container img {
+      border: 2px solid #B58C5E;
+      padding: 0.1rem; }
+  .product-container .product-title {
+    font-family: "Playfair Display";
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #F7F7F5;
+    border-bottom: 1px solid #F7F7F5;
+    padding: 0.1rem; }
+  .product-container .product-text {
+    display: inline-block; }
+    .product-container .product-text h5 {
+      text-transform: uppercase;
+      margin-top: 0.25rem;
+      color: #B58C5E;
+      letter-spacing: 0.1rem; }
+    .product-container .product-text p {
+      margin-top: 0.25rem; }
+  .product-container a {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F7F7F5;
+    border: 1px solid #F7F7F5;
+    margin-top: 0.5rem;
+    padding: 0.25rem;
+    background: #B58C5E; }
+    .product-container a span {
+      padding-right: 0.5rem; }
