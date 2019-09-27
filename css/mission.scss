@@ -1,29 +1,31 @@
 .mission {
     text-align: center;
-    height: 100%;
+    float: left;
+
+    @include lg {
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+        margin-top: 11rem;
+    }
+
+    @include xl {
+        margin-top: 20rem;
+    }
 
     .mission-1-container,
     .mission-2-container {
-        margin: 1rem;
-        border-top: 2px solid $tan;
-        border-bottom: 2px solid $tan;
         padding: 1rem;
-    }
-
-    .mission-1-container {
-        border-bottom: 3px solid $tan;
-        margin-bottom: 0.5rem;
-    }
-
-    .mission-2-container {
-        border-top: 3px solid $tan;
-        margin-top: 0.5rem;
+        margin: 2rem;
+        border: 2px solid $tan;
+        outline: 1px solid $tan;
+        outline-offset: 5px;
+        background-color: transparent;
     }
 
     .mission-1-text,
     .mission-2-text {
-        background-color: $tan;
-        padding: 2rem;
+        margin: 1rem;
     }
 
     h4 {
@@ -35,19 +37,12 @@
     }
 
     .line-2 {
-        border-top: 1.5px solid $green;
+        border-top: 1.5px solid $tan;
         padding-top: 0.5rem;
     }
 
-    .line-3 {
-        width: 95%;
-        margin: 0 auto;
-        background-color: $tan;
-        height: 5px;
-    }
-
     p {
-        font-weight: 500;
+        font-weight: 800;
         margin-bottom: 1.5rem;
         letter-spacing: 0.05rem;
     }
@@ -56,8 +51,8 @@
         text-decoration: none;
         color: $white;
         padding: 0.5rem;
-        border-top: 0.5px solid $green;
-        border-bottom: 0.5px solid $green;
+        border-top: 0.5px solid $white;
+        border-bottom: 0.5px solid $white;
         font-weight: 500;
 
         &:hover {

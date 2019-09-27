@@ -169,23 +169,27 @@ section {
 
 .mission {
   text-align: center;
-  height: 100%; }
+  float: left; }
+  @media (min-height: 1000px) {
+    .mission {
+      width: 80%;
+      float: none;
+      margin: 0 auto;
+      margin-top: 11rem; } }
+  @media (min-height: 1200px) {
+    .mission {
+      margin-top: 20rem; } }
   .mission .mission-1-container,
   .mission .mission-2-container {
-    margin: 1rem;
-    border-top: 2px solid #B58C5E;
-    border-bottom: 2px solid #B58C5E;
-    padding: 1rem; }
-  .mission .mission-1-container {
-    border-bottom: 3px solid #B58C5E;
-    margin-bottom: 0.5rem; }
-  .mission .mission-2-container {
-    border-top: 3px solid #B58C5E;
-    margin-top: 0.5rem; }
+    padding: 1rem;
+    margin: 2rem;
+    border: 2px solid #B58C5E;
+    outline: 1px solid #B58C5E;
+    outline-offset: 5px;
+    background-color: transparent; }
   .mission .mission-1-text,
   .mission .mission-2-text {
-    background-color: #B58C5E;
-    padding: 2rem; }
+    margin: 1rem; }
   .mission h4 {
     font-family: "Playfair Display";
     font-size: 2rem;
@@ -193,23 +197,18 @@ section {
     color: #F7F7F5;
     padding-bottom: 0.5rem; }
   .mission .line-2 {
-    border-top: 1.5px solid #6D6D54;
+    border-top: 1.5px solid #B58C5E;
     padding-top: 0.5rem; }
-  .mission .line-3 {
-    width: 95%;
-    margin: 0 auto;
-    background-color: #B58C5E;
-    height: 5px; }
   .mission p {
-    font-weight: 500;
+    font-weight: 800;
     margin-bottom: 1.5rem;
     letter-spacing: 0.05rem; }
   .mission a {
     text-decoration: none;
     color: #F7F7F5;
     padding: 0.5rem;
-    border-top: 0.5px solid #6D6D54;
-    border-bottom: 0.5px solid #6D6D54;
+    border-top: 0.5px solid #F7F7F5;
+    border-bottom: 0.5px solid #F7F7F5;
     font-weight: 500; }
     .mission a:hover {
       color: #6D6D54; }
