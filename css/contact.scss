@@ -1,13 +1,35 @@
 .contact {
 
+    @include md {
+        margin-top: 4rem;
+    }
+
+    @include lg {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+
     .contact-text {
         margin: 1rem;
+
+        @include sm {
+            margin-bottom: 0.25rem;
+        }
 
         h3 {
             font-family: $serif;
             font-size: 3rem;
             color: $white;
             border-bottom: 1px solid $white;
+
+            @include sm {
+                font-size: 2rem;
+            }
+
+            @include xl {
+                font-size: 3.25rem;
+            }
 
             span {
                 font-family: $sansSerif;
@@ -22,6 +44,15 @@
             margin-top: 1rem;
             padding-bottom: 1rem;
             border-bottom: 1px solid $tan;
+
+            @include sm {
+                font-size: 1rem;
+                padding-bottom: 0.5rem;
+            }
+
+            @include xl {
+                font-size: 1.35rem;
+            }
         }
 
         .line-4 {
@@ -46,6 +77,10 @@
     form {
         max-width: 90%;
         margin: 1rem auto;
+
+        @include sm {
+            margin: 0.75rem auto;
+        }
 
         .feedback-input {
             font-family: $sansSerif;
@@ -77,6 +112,10 @@
             height: 6.25rem;
             line-height: 150%;
             resize: vertical;
+
+            @include sm {
+                height: 4rem;
+            }
         }
 
         [type="submit"] {
@@ -94,6 +133,10 @@
             transition: all 0.3s;
             margin-top: -4px;
             font-weight: 700;
+
+            @include xl {
+                font-size: 1.2rem;
+            }
         }
 
         [type="submit"]:hover {

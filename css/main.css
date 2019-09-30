@@ -245,7 +245,7 @@ section {
       .mission a {
         font-size: 1.5rem; } }
     .mission a:hover {
-      color: #6D6D54; }
+      color: #B58C5E; }
     .mission a span {
       padding-right: 0.5rem;
       font-weight: 800; }
@@ -348,13 +348,32 @@ section {
     .product-container a:hover {
       background-color: #6D6D54; }
 
+@media (min-height: 750px) {
+  .contact {
+    margin-top: 4rem; } }
+
+@media (min-height: 1000px) {
+  .contact {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem; } }
+
 .contact .contact-text {
   margin: 1rem; }
+  @media (max-height: 650px) {
+    .contact .contact-text {
+      margin-bottom: 0.25rem; } }
   .contact .contact-text h3 {
     font-family: "Playfair Display";
     font-size: 3rem;
     color: #F7F7F5;
     border-bottom: 1px solid #F7F7F5; }
+    @media (max-height: 650px) {
+      .contact .contact-text h3 {
+        font-size: 2rem; } }
+    @media (min-height: 1200px) {
+      .contact .contact-text h3 {
+        font-size: 3.25rem; } }
     .contact .contact-text h3 span {
       font-family: "Montserrat";
       font-weight: 200; }
@@ -365,6 +384,13 @@ section {
     margin-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #B58C5E; }
+    @media (max-height: 650px) {
+      .contact .contact-text p {
+        font-size: 1rem;
+        padding-bottom: 0.5rem; } }
+    @media (min-height: 1200px) {
+      .contact .contact-text p {
+        font-size: 1.35rem; } }
   .contact .contact-text .line-4 {
     padding-top: 0.5rem;
     border-bottom: 2px solid #B58C5E;
@@ -381,6 +407,9 @@ section {
 .contact form {
   max-width: 90%;
   margin: 1rem auto; }
+  @media (max-height: 650px) {
+    .contact form {
+      margin: 0.75rem auto; } }
   .contact form .feedback-input {
     font-family: "Montserrat";
     color: #121208;
@@ -412,6 +441,9 @@ section {
     height: 6.25rem;
     line-height: 150%;
     resize: vertical; }
+    @media (max-height: 650px) {
+      .contact form textarea {
+        height: 4rem; } }
   .contact form [type="submit"] {
     font-family: "Montserrat";
     text-transform: uppercase;
@@ -429,5 +461,8 @@ section {
     transition: all 0.3s;
     margin-top: -4px;
     font-weight: 700; }
+    @media (min-height: 1200px) {
+      .contact form [type="submit"] {
+        font-size: 1.2rem; } }
   .contact form [type="submit"]:hover {
     background: #6D6D54; }
