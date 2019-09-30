@@ -6,6 +6,13 @@
     width: 100%;
     margin: 1rem 0 1rem 1rem;
 
+    @include monitor {
+        width: 50%;
+        position: relative;
+        top: 15%;
+        left: 5%;
+    }
+
     h2 {
         font-size: 4rem;
         font-family: $serif;
@@ -50,6 +57,10 @@
     display: inline-block;
     position: relative;
 
+    @include monitor {
+        text-align: center;
+    }
+
     .img-1 {
         width: 95%;
         position: relative;
@@ -62,6 +73,12 @@
         @include sm {
             width: 90%;
         }
+
+        @include monitor {
+            width: 45%;
+            left: 52%;
+            border: 2px solid $tan;
+        }
     }
 
     .img-2 {
@@ -73,6 +90,12 @@
 
         @include sm {
             width: 90%;
+        }
+
+        @include monitor {
+            width: 45%;
+            top: 30vh;
+            left: -40vw;
         }
     }
 }

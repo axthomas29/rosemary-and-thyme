@@ -126,6 +126,12 @@ section {
 .intro {
   width: 100%;
   margin: 1rem 0 1rem 1rem; }
+  @media (min-width: 1000px) and (min-height: 768px) {
+    .intro {
+      width: 50%;
+      position: relative;
+      top: 15%;
+      left: 5%; } }
   .intro h2 {
     font-size: 4rem;
     font-family: "Playfair Display";
@@ -159,6 +165,9 @@ section {
 .grid-images {
   display: inline-block;
   position: relative; }
+  @media (min-width: 1000px) and (min-height: 768px) {
+    .grid-images {
+      text-align: center; } }
   .grid-images .img-1 {
     width: 95%;
     position: relative;
@@ -170,6 +179,11 @@ section {
     @media (max-height: 650px) {
       .grid-images .img-1 {
         width: 90%; } }
+    @media (min-width: 1000px) and (min-height: 768px) {
+      .grid-images .img-1 {
+        width: 45%;
+        left: 52%;
+        border: 2px solid #B58C5E; } }
   .grid-images .img-2 {
     position: relative;
     top: -5px;
@@ -179,6 +193,11 @@ section {
     @media (max-height: 650px) {
       .grid-images .img-2 {
         width: 90%; } }
+    @media (min-width: 1000px) and (min-height: 768px) {
+      .grid-images .img-2 {
+        width: 45%;
+        top: 30vh;
+        left: -40vw; } }
 
 .mission {
   text-align: center;
