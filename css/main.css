@@ -34,6 +34,9 @@ section {
   background-size: cover;
   background-position: center;
   height: 100%; }
+  @media (min-width: 1000px) and (min-height: 768px) {
+    .intro-content {
+      background-position: 0% 30%; } }
   .intro-content .title {
     width: 100%;
     margin: 0 auto;
@@ -49,6 +52,9 @@ section {
       @media (min-height: 1000px) {
         .intro-content .title h1 {
           font-size: 2.5rem; } }
+      @media (min-width: 1000px) and (min-height: 768px) {
+        .intro-content .title h1 {
+          font-size: 3rem; } }
     .intro-content .title .border-top {
       width: 90%;
       margin: 0 auto;
@@ -85,6 +91,9 @@ section {
     @media (min-height: 1200px) {
       .intro-content .subtitle {
         margin-top: 30rem; } }
+    @media (min-width: 1000px) and (min-height: 768px) {
+      .intro-content .subtitle {
+        margin-top: 25rem; } }
     .intro-content .subtitle h3 {
       color: #F7F7F5;
       font-weight: 400;
@@ -96,6 +105,10 @@ section {
         .intro-content .subtitle h3 {
           font-size: 2rem;
           margin-left: 0.5rem; } }
+      @media (min-width: 1000px) and (min-height: 768px) {
+        .intro-content .subtitle h3 {
+          font-size: 2.5rem;
+          margin-left: 1.5rem; } }
       .intro-content .subtitle h3 span {
         font-family: "Playfair Display";
         font-size: 3rem;
