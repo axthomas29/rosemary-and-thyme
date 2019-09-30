@@ -213,6 +213,9 @@ section {
     @media (max-height: 650px) {
       .mission h4 {
         font-size: 1.5rem; } }
+    @media (min-height: 1200px) {
+      .mission h4 {
+        font-size: 2.5rem; } }
   .mission .line-2 {
     border-top: 1.5px solid #B58C5E;
     padding-top: 0.5rem; }
@@ -224,6 +227,9 @@ section {
       .mission p {
         font-size: 0.75rem;
         margin-bottom: 1rem; } }
+    @media (min-height: 1200px) {
+      .mission p {
+        font-size: 1.5rem; } }
   .mission a {
     text-decoration: none;
     color: #F7F7F5;
@@ -235,6 +241,9 @@ section {
       .mission a {
         font-size: 0.75rem;
         padding: .25rem; } }
+    @media (min-height: 1200px) {
+      .mission a {
+        font-size: 1.5rem; } }
     .mission a:hover {
       color: #6D6D54; }
     .mission a span {
@@ -243,12 +252,31 @@ section {
 
 .product-container {
   margin: 1rem; }
+  @media (max-height: 650px) {
+    .product-container {
+      width: 85%;
+      margin: 0 auto;
+      margin-top: 1rem; } }
+  @media (min-height: 750px) {
+    .product-container {
+      margin-top: 5rem; } }
+  @media (min-height: 1000px) {
+    .product-container {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 3rem; } }
+  @media (min-height: 1200px) {
+    .product-container {
+      margin-top: 5rem; } }
   .product-container .img-container {
     border: 1px solid #B58C5E;
     padding: 0.2rem;
     padding-bottom: 0.05rem;
     width: 85%;
     margin: 0 auto; }
+    @media (min-height: 1000px) {
+      .product-container .img-container {
+        width: 70%; } }
     .product-container .img-container img {
       border: 2px solid #B58C5E;
       padding: 0.1rem; }
@@ -260,6 +288,13 @@ section {
     color: #F7F7F5;
     border-bottom: 1px solid #F7F7F5;
     padding: 0.1rem; }
+    @media (min-height: 1000px) {
+      .product-container .product-title {
+        font-size: 2.5rem;
+        margin-top: 1rem; } }
+    @media (min-height: 1200px) {
+      .product-container .product-title {
+        font-size: 3rem; } }
   .product-container .product-text {
     display: inline-block; }
     .product-container .product-text h5 {
@@ -267,9 +302,24 @@ section {
       margin-top: 0.25rem;
       color: #B58C5E;
       letter-spacing: 0.1rem; }
+      @media (min-height: 1000px) {
+        .product-container .product-text h5 {
+          font-size: 1.25rem; } }
+      @media (min-height: 1200px) {
+        .product-container .product-text h5 {
+          font-size: 1.55rem; } }
     .product-container .product-text p {
       margin-top: 0.25rem;
       font-weight: 600; }
+      @media (max-height: 650px) {
+        .product-container .product-text p {
+          font-size: .95rem; } }
+      @media (min-height: 1000px) {
+        .product-container .product-text p {
+          font-size: 1.2rem; } }
+      @media (min-height: 1200px) {
+        .product-container .product-text p {
+          font-size: 1.5rem; } }
   .product-container a {
     width: 50%;
     margin: 0 auto;
@@ -282,6 +332,17 @@ section {
     margin-top: 0.85rem;
     padding: 0.25rem;
     background: #B58C5E; }
+    @media (max-height: 650px) {
+      .product-container a {
+        margin-top: 0.5rem; } }
+    @media (min-height: 1000px) {
+      .product-container a {
+        font-size: 1.25rem;
+        margin-top: 1.5rem; } }
+    @media (min-height: 1200px) {
+      .product-container a {
+        font-size: 1.5rem;
+        margin-top: 2rem; } }
     .product-container a span {
       padding-right: 0.5rem; }
     .product-container a:hover {

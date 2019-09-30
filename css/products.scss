@@ -1,12 +1,37 @@
 .product-container {
     margin: 1rem;
 
+    @include sm {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+
+    @include md {
+        margin-top: 5rem;
+    }
+
+    @include lg {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    @include xl {
+        margin-top: 5rem;
+
+    }
+
     .img-container {
         border: 1px solid $tan;
         padding: 0.2rem;
         padding-bottom: 0.05rem;
         width: 85%;
         margin: 0 auto;
+
+        @include lg {
+            width: 70%;
+        }
 
         img {
             border: 2px solid $tan;
@@ -22,6 +47,15 @@
         color: $white;
         border-bottom: 1px solid $white;
         padding: 0.1rem;
+
+        @include lg {
+            font-size: 2.5rem;
+            margin-top: 1rem;
+        }
+
+        @include xl {
+            font-size: 3rem;
+        }
     }
 
     .product-text {
@@ -32,11 +66,31 @@
             margin-top: 0.25rem;
             color: $tan;
             letter-spacing: 0.1rem;
+
+            @include lg {
+                font-size: 1.25rem
+            }
+
+            @include xl {
+                font-size: 1.55rem;
+            }
         }
 
         p {
             margin-top: 0.25rem;
             font-weight: 600;
+
+            @include sm {
+                font-size: .95rem;
+            }
+
+            @include lg {
+                font-size: 1.2rem;
+            }
+
+            @include xl {
+                font-size: 1.5rem;
+            }
         }
     }
 
@@ -52,6 +106,20 @@
         margin-top: 0.85rem;
         padding: 0.25rem;
         background: $tan;
+
+        @include sm {
+            margin-top: 0.5rem;
+        }
+
+        @include lg {
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+        }
+
+        @include xl {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+        }
 
         span {
             padding-right: 0.5rem;
