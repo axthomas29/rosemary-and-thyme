@@ -22,6 +22,12 @@
 
     }
 
+    @include monitor {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 1.75rem;
+    }
+
     .img-container {
         border: 1px solid $tan;
         padding: 0.2rem;
@@ -31,6 +37,10 @@
 
         @include lg {
             width: 70%;
+        }
+
+        @include monitor {
+            width: 50%;
         }
 
         img {
@@ -119,6 +129,11 @@
         @include xl {
             font-size: 1.5rem;
             margin-top: 2rem;
+        }
+
+        @include monitor {
+            width: 35%;
+            margin-top: 0.85rem;
         }
 
         span {
