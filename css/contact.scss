@@ -33,10 +33,6 @@
                 font-size: 2rem;
             }
 
-            @include xl {
-                font-size: 3.25rem;
-            }
-
             span {
                 font-family: $sansSerif;
                 font-weight: 200;
@@ -54,10 +50,6 @@
             @include sm {
                 font-size: 1rem;
                 padding-bottom: 0.5rem;
-            }
-
-            @include xl {
-                font-size: 1.35rem;
             }
         }
 
@@ -139,10 +131,6 @@
             transition: all 0.3s;
             margin-top: -4px;
             font-weight: 700;
-
-            @include xl {
-                font-size: 1.2rem;
-            }
         }
 
         [type="submit"]:hover {

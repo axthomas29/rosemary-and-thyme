@@ -17,10 +17,6 @@
         margin-top: 11rem;
     }
 
-    @include xl {
-        margin-top: 20rem;
-    }
-
     .mission-1-container,
     .mission-2-container {
         padding: 1rem;
@@ -65,9 +61,6 @@
             font-size: 1.5rem;
         }
 
-        @include xl {
-            font-size: 2.5rem;
-        }
     }
 
     .line-2 {
@@ -84,10 +77,6 @@
             font-size: 0.75rem;
             margin-bottom: 1rem;
         }
-
-        @include xl {
-            font-size: 1.5rem;
-        }
     }
 
     a {
@@ -101,10 +90,6 @@
         @include sm {
             font-size: 0.75rem;
             padding: .25rem;
-        }
-
-        @include xl {
-            font-size: 1.5rem;
         }
 
         &:hover {
