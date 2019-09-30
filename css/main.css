@@ -410,6 +410,12 @@ section {
     margin: 0 auto;
     margin-top: 5rem; } }
 
+@media (min-width: 1000px) and (min-height: 768px) {
+  .contact {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5rem; } }
+
 .contact .contact-text {
   margin: 1rem; }
   @media (max-height: 650px) {

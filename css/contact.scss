@@ -10,6 +10,12 @@
         margin-top: 5rem;
     }
 
+    @include monitor {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+
     .contact-text {
         margin: 1rem;
 
