@@ -229,6 +229,14 @@ section {
       .mission .mission-1-container,
       .mission .mission-2-container {
         height: auto; } }
+    @media (min-width: 1000px) and (min-height: 768px) {
+      .mission .mission-1-container,
+      .mission .mission-2-container {
+        width: 50%;
+        margin: 0 auto; } }
+  .mission .mission-1-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
   .mission .mission-1-text,
   .mission .mission-2-text {
     margin: 1rem; }

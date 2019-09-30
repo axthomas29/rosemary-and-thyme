@@ -33,6 +33,16 @@
         @include sm {
             height: auto;
         }
+
+        @include monitor {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+    .mission-1-container {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     .mission-1-text,
